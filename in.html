@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>1</title>
+    <style>
+      /* Apply styles for page breaks */
+      .page {
+        page-break-before: always; /* Force a page break before this div */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- First page content -->
+    <div>
+<h1
+  style="
+    text-align: center;
+    margin-top: px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  "
+>
+  ఫారం – 46
+</h1>
+<h2 style="text-align: center; margin-top: 0px;    margin-bottom: 0px;">
+  ఆంధ్రప్రదేశ్ సర్వే మరియు సరిహద్దుల చట్టం, 1923 లోని 9(2) సెక్షన్ ప్రకారము
+  నోటీసు
+</h2>
+
+<h3>శ్రీ [%"pattadarname"%]/</h3>
+
+<p>
+  &emsp;సదరు చట్టం 9(1) వ సెక్షన్ ప్రకారము ఈ క్రింద సంతకము చేసిన సమర్ధ సర్వే
+  అధికారి వల్ల ఈ క్రింది తెలిపిన వివరములను నిర్ణయించడమైనది.
+</p>
+<p>
+  &emsp; ఈ క్రింది జాబితా నందు తెలిపిన భూముల సరిహద్దుల నిర్ణయం మరియు కొలత సమయము
+  నందు ఏవిధమైన తగాదాలు నాకు తెలియపరచనందున, సదరు చట్టం లోని 10(1) సెక్షన్
+  ననుసరించి, అభ్యంతరములు ఏమియు లేవని భావించి నేను ఇందుమూలముగా ఈ భూమి యొక్క సర్వే
+  పటములలో పొందుపరచబడిన సరిహద్దులు తగాదాలు లేనట్లుగాను, అవిసరిగా వున్నవని
+  నిర్ధారించి రికార్డులు తయారు చేసియున్నాను.
+</p>
+<p>
+  &emsp; సదరు సర్వే రిజిస్టర్ లో నమోదు కాబడిన భూముల వివరములను ఈ క్రింది తెలిపిన
+  జాబితా లో తెలియపరచడమైనది. ఈ జాబితా పై ఏవిధమైన అభ్యంతరములు ఉన్నచో వాటిని ఈ
+  నోటీసు జారీ అయిన తేది నుండి 21 దినములలో మండల రెవిన్యూ కార్యాలయము లో వుండు
+  అప్పీలు సర్వే అధికారి గారికి తగిన నమూనా పత్రములో అప్పీలు సమర్పించుకోవచ్చును.
+  ప్రత్యేక విషయములో తప్ప, ప్రతి సర్వే పటమునకు సాధారముగా 50/- రూ. రుసుము
+  దరఖాస్తుతో జతపరచి సర్వే పటము కాపీలను పొందవచ్చును.
+</p>
+షరా: ఆంధ్రప్రదేశ్ సర్వే మరియు సరిహద్దుల చట్టం, 1923 లోని 10(1) వ సిక్షన్
+ప్రకారము ఈ భూమి సరిహద్దుల విషయమై ఎటువంటి అభ్యంతరము లేదనియు, సెక్షన్ (11)
+ప్రకారము అప్పీలు మాత్రమే వున్నదని తెలియచేయడమైనది.
+<table
+  border="1"
+  cellpadding="0"
+  cellspacing="0"
+  style="
+    width: 100%;
+
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+  "
+>
+  <tbody id="tableBody">
+    <!-- Existing rows -->
+    <tr style="height: 30px">
+      <td>ప్రస్తుత రీ సర్వే</td>
+      <td colspan="3">రికార్డ్స్ అఫ్ రైట్స్ ప్రకారం</td>
+      <td colspan="2">ప్రస్తుత రీ సర్వే ప్రకారము</td>
+      <td rowspan="3">రిమార్కులు</td>
+    </tr>
+    <tr>
+      <td rowspan="2">ల్యాండ్ పార్సెల్ నెంబర్</td>
+      <td rowspan="2">సర్వే నెంబరు- సబ్ డివిజన్ నెంబర్</td>
+      <td colspan="2">విస్తీరణము</td>
+      <td colspan="2">విస్తీరణము</td>
+    </tr>
+    <tr style="height: 30px">
+      <td>ఎ. సెంట్లు</td>
+      <td>హె.ఏర్లు. చ.మీ</td>
+      <td>ఎ. సెంట్లు</td>
+      <td>హె.ఏర్లు. చ.మీ</td>
+    </tr>
+  </tbody>
+</table>
+
+  <script>
+     function refreshTable() {
+       const tableBody = document.getElementById("tableBody");
+
+       let lpm_no = "[%array_to_string( aggregate('notices_data','array_agg',"lpm_no", "khata_no" =@atlas_pagename ))%]".split(',') ;
+
+
+
+       let acres = "[%array_to_string( aggregate('notices_data','array_agg',"old_acre", "khata_no" =@atlas_pagename ))%]".split(',') ;
+       let hectares1 =  "[%array_to_string( aggregate('notices_data','array_agg',"old_hect", "khata_no" =@atlas_pagename ))%]".split(',') ;
+       let areas =  "[%array_to_string( aggregate('notices_data','array_agg',"new_acre", "khata_no" =@atlas_pagename ))%]".split(',') ;
+       let hectares2 = "[%array_to_string( aggregate('notices_data','array_agg',"new_hect", "khata_no" =@atlas_pagename ))%]".split(',') ;
+       let remarks =  "[%array_to_string( aggregate('notices_data','array_agg',"remarks", "khata_no" =@atlas_pagename ))%]".split(',') ;
+
+
+
+    let surveyNos = "[% concatenate(  "sy_sdno"  , filter:= "khata_no"= @atlas_pagename ,concatenator:= '~_-!^<>' )%]".split('~_-!^<>')
+
+
+       const numRows = Math.max(
+         lpm_no.length,
+         surveyNos.length,
+         acres.length,
+         hectares1.length,
+         areas.length,
+         hectares2.length,
+         remarks.length
+       );
+
+       for (let i = 0; i < numRows; i++) {
+         const row = document.createElement("tr");
+
+         const cells = [
+           lpm_no[i] || "",
+           surveyNos[i] || "",
+           acres[i] || "",
+           hectares1[i] || "",
+           areas[i] || "",
+           hectares2[i] || "",
+           remarks[i] || "",
+         ];
+
+         cells.forEach((value) => {
+           const cell = document.createElement("td");
+           cell.textContent = value;
+           row.appendChild(cell);
+         });
+
+         tableBody.appendChild(row);
+       }
+     }
+
+     // Call the function to populate the table initially
+     refreshTable();
+  </script>
+
+<br />
+<p>
+  &emsp; &emsp;నోటీసు జారి చేసిన తేది: &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+  సర్వే అధికారి
+</p>
+
+</div>
+
+<div style="page-break-before: always">
+
+
+<h1
+  style="
+    text-align: center;
+    margin-top: px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  "
+>
+ఫారం – 46 (a)
+</h1>
+<h2 style="text-align: center; margin-top: 0px;    margin-bottom: 0px;">
+రశీదు
+</h2>
+
+        <p>
+  &emsp;  కోటబొమ్మాళి మండలం, సరియాపల్లి గ్రామము నందు రీసర్వే నిర్వహించి, ల్యాండ్ పార్సెల్ నెంబర్ <<Start: [Related Input_Datas]>><<[Chalta Number]>>, <<End>>విషయమై ఆంధ్రప్రదేశ్ సర్వే & సరిహద్దుల చట్టం, 1923 లోని 9(2) సెక్షన్ ప్రకారము_________________ తేదీన జారీ చేసిన నోటీసు అందిన విషయాన్ని నేను దృవీకరించుచున్నాను. </p>
+
+స్తలము:
+
+<p>
+  తేది:                        &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;                                                                                నోటీసు తీసుకున్న వారి సంతకము      </p>
+</div>
+  </body>
+</html>
